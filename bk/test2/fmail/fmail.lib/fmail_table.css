@@ -1,0 +1,31 @@
+﻿@charset "UTF-8";
+
+
+table.mailform {
+	width: 100%;
+	padding: 10px;
+}
+table.mailform tr th {
+	width: 150px;
+	padding: 7px 0px 7px 0px;
+	border-bottom: solid 1px #CCCCCC;
+	text-align: left;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000099;
+}
+table.mailform tr td {
+	padding: 7px 0px 7px 10px;
+	border-bottom: solid 1px #CCCCCC;
+	font-size: 12px;
+}
+table.mailform tr td ul li,table.mailform tr td ul,table.mailform tr td ol,table.mailform tr td ol li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+th.fmail_error_line,td.fmail_error_line,.fmail_error {
+	background-color: #FFEEEE;
+	color: #FF0000;
+}

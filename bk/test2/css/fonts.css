@@ -1,0 +1,49 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+/**
+ * YUI Fonts
+ * @module fonts
+ * @namespace yui-
+ * @requires 
+ */
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ */
+body {
+	font: 62.5% Meiryo, arial, clean, verdana, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	color: #333;
+	line-height: 1.4;
+}
+html>/**/body { font-size: 10px; } /* Except IE */
+/**
+ * Nudge down to get to 10px equivalent for these form elements
+ */ 
+select,input,button,textarea {
+	font: 100% Meiryo, arial, clean, verdana, 'Hiragino Kaku Gothic Pro', "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	color: #333;
+	line-height: 1.4;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table { font-size:inherit; font: 62.5%; *font: 100%; color: #333; line-height: 1.4; }
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,code,kbd,samp,tt { font-family:monospace; font-size: 100%; *font-size:108%; line-height: 1.4; color: #333; }
+
+/* Font-size fixed */
+ul ul,ul ol,ul dl,ul input,ul p,
+ol ul,ol ol,ol dl,ol input,ol p,
+dl ul,dl ol,dl dl,dl input,dl p,
+table table,table ul,table ol,table dl,table input,table p,
+p input{ font-size: 100%; }
+

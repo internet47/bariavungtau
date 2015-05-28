@@ -1,0 +1,41 @@
+﻿@charset "UTF-8";
+
+label.fmail_label {
+	display: block;
+	clear: both;
+}
+
+/*チェックしてる時*/
+label.fmail_label_enabled {
+	clear: both;
+	display: block;
+	margin: 1px;
+	padding: 5px;
+	border: solid 0px #CCCCCC;
+	background-color: #FFCE3C;
+	text-indent: 5px;
+	
+	/*radioとcheckboxが変な所で改行する時はここで調整*/
+	width:auto;
+	height:auto;
+}
+
+/*チェックしてない時*/
+label.fmail_label_disabled {
+	clear: both;
+	display: block;
+	margin: 1px;
+	padding: 5px;
+	border: none;
+	text-indent: 5px;
+	
+	/*radioとcheckboxが変な所で改行する時はここで調整*/
+	width:auto;
+	height:auto;
+}
+label {
+	cursor: pointer;
+}
+label input {
+	
+}

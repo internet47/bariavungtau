@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c> 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^gallery.html gallery.php [L] 
+RewriteRule ^news.html news.php [L] 
+RewriteRule ^living_information.html living_information.php [L] 
+
+RewriteRule ^detailnew-([a-zA-Z0-9]+).html$ detailnew.php?no=$1
+</IfModule>

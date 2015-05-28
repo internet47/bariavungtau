@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Alllist>
+  <Lists>
+    <List>
+      <no>10</no>
+      <name>ショッピングセンター</name>
+      <icon>20-03-2013-11-55-12_Shopping.png</icon>
+    </List>
+    <List>
+      <no>9</no>
+      <name>交通機関</name>
+      <icon>20-03-2013-11-53-57_Transportation.png</icon>
+    </List>
+    <List>
+      <no>8</no>
+      <name>病院</name>
+      <icon>20-03-2013-11-53-17_hospital.jpg</icon>
+    </List>
+    <List>
+      <no>7</no>
+      <name>銀行</name>
+      <icon>20-03-2013-11-53-00_Bank.png</icon>
+    </List>
+    <List>
+      <no>6</no>
+      <name>飲食店</name>
+      <icon>19-03-2013-10-46-08_Restaurant.png</icon>
+    </List>
+    <List>
+      <no>5</no>
+      <name>観光名所</name>
+      <icon>20-03-2013-11-52-17_Tourist.jpg</icon>
+    </List>
+    <List>
+      <no>4</no>
+      <name>ホテル</name>
+      <icon>19-03-2013-10-40-11_Hotel.jpg</icon>
+    </List>
+    <List>
+      <no>2</no>
+      <name>mdahidnq</name>
+      <icon>1</icon>
+    </List>
+  </Lists>
+</Alllist>

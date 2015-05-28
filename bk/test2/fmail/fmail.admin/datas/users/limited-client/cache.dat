@@ -1,0 +1,7 @@
+## SESSION FILE
+$current_user{'id'} = 'limited-client';
+$current_user{'pw'} = '9zhyamgNKThmk';
+$current_user{'power'} = 'limited-client';
+$current_user{'name'} = 'WEBサイト管理者';
+$current_user{'note'} = '限定のお客様アカウント';
+## SESSION FILE EOF

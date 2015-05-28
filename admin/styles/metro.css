@@ -1,0 +1,289 @@
+#metrologin{
+	float:right;
+	margin:3px 0;
+	}
+
+button,
+.button {
+  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  font-smooth: always;
+  min-width: 90px;
+  min-height: 32px;
+  height: 32px;
+  background-color: #ccc;
+  border: 1px transparent solid;
+  color: #353535;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-raduis: 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 4px 10px;
+  position: relative;
+}
+button.standart,
+.button.standart {
+  min-width: 90px;
+  min-height: 32px;
+}
+button:active,
+.button:active,
+button.default:active,
+.button.default:active {
+  top: 1px;
+  left: 1px;
+}
+button:disabled,
+.button:disabled,
+button.disabled,
+.button.disabled {
+  background-color: #eaeaea;
+  color: #bebebe;
+  cursor: not-allowed;
+}
+button.default,
+.button.default {
+  background-color: #008287;
+  color: #fff;
+}
+button:focus,
+.button:focus {
+  outline: 0;
+  border: 1px #353535 dotted;
+}
+a.button:hover,
+a.button:active {
+  color: inherit;
+}
+a.button.big {
+  padding: 14px 10px;
+}
+button.mini,
+.button.mini,
+.tool-button.mini {
+  min-height: 24px;
+  min-width: 24px;
+  height: 26px;
+  font-size: .8em;
+}
+button.big,
+.button.big,
+.tool-button.big {
+  min-height: 48px;
+  height: 48px;
+  font-size: 1.2em;
+}
+.button-set a,
+.button-set button {
+  margin-right: 0;
+  text-align: center;
+}
+.button-set a img,
+.button-set button img {
+  background-color: transparent;
+}
+.button-set a {
+  padding: 5px 0;
+}
+.button-set button.active {
+  background-color: #008287;
+  color: #fff;
+}
+.shortcuts {
+  margin-bottom: 10px;
+}
+.shortcut {
+  width: 92px;
+  height: 92px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  vertical-align: top;
+  text-decoration: none;
+  background: #F3F3F3;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 2px transparent solid;
+  position: relative;
+}
+.shortcut:hover {
+  border-color: #378de5;
+}
+.shortcut:active {
+  background: #F3F3F3;
+  top: 1px;
+  left: 1px;
+}
+.shortcut  > .icon {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  font-size: 32px;
+  color: #888;
+}
+.shortcut  > .label {
+  display: block;
+  font-weight: 400;
+  color: #666;
+  text-align:center;
+}
+.shortcut  > .label > span {
+  display: block;
+}
+.shortcut a {
+  color: #666 !important;
+  text-decoration:none !important;
+}
+.shortcut  > .badge {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #2d89ef;
+	padding: 0px 5px;
+	margin: 0 !important;
+	text-align: center;
+	display: block;
+	font-size: 8pt;
+	color: #fff;
+}
+a.shortcut {
+  padding: 0;
+}
+a.shortcut .label {
+  font-size: 9pt;
+  padding-top: 10px;
+}
+.bg-color-blue {
+  background-color: #2d89ef !important;
+}
+.bg-color-blueLight {
+  background-color: #eff4ff !important;
+}
+.bg-color-blueDark {
+  background-color: #2b5797 !important;
+}
+.bg-color-green {
+  background-color: #00a300 !important;
+}
+.bg-color-greenLight {
+  background-color: #99b433 !important;
+}
+.bg-color-greenDark {
+  background-color: #1e7145 !important;
+}
+.bg-color-red {
+  background-color: #b91d47 !important;
+}
+.bg-color-yellow {
+  background-color: #ffc40d !important;
+}
+.bg-color-orange {
+  background-color: #e3a21a !important;
+}
+.bg-color-orangeDark {
+  background-color: #da532c !important;
+}
+.bg-color-pink {
+  background-color: #9f00a7 !important;
+}
+.bg-color-pinkDark {
+  background-color: #7e3878 !important;
+}
+.bg-color-purple {
+  background-color: #603cba !important;
+}
+.bg-color-darken {
+  background-color: #1d1d1d !important;
+}
+.bg-color-lighten {
+  background-color: #d5e7ec !important;
+}
+.bg-color-white {
+  background-color: #ffffff !important;
+}
+.bg-color-grayDark {
+  background-color: #525252 !important;
+}
+
+
+button.shortcutmini, a.shortcutmini {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+  font-size: 8pt;
+  padding:4px;
+}
+button.shortcutmini img, a.shortcutmini img {
+  width: 21px !important;
+  height: 21px !important;
+  max-width: 21px !important;
+  max-height: 21px !important;
+}
+
+.shortcutmini {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  vertical-align: top;
+  text-decoration: none;
+  background: #F3F3F3;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 2px transparent solid;
+  position: relative;
+}
+.shortcutmini:hover {
+  border-color:#F00;
+}
+.shortcutmini:active {
+  background: #F3F3F3;
+  top: 1px;
+  left: 1px;
+}
+.shortcutmini  > .icon {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  font-size: 32px;
+  color: #888;
+}
+.shortcutmini  > .label {
+  display: block;
+  font-weight: 400;
+  color: #666;
+}
+.shortcutmini  > .badge {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #2d89ef;
+  padding: 1px;
+  margin: 0 !important;
+  text-align: center;
+  display: block;
+  font-size: 7pt;
+  color: #fff;
+  line-height: 10px;
+}
+a.shortcutmini {
+  padding: 0;
+}
+a.shortcutmini .label {
+  font-size: 9pt;
+  padding-top: 7px;
+}
+a.shortcutmini .label span {
+  display:block;
+  font-size: 11px !important;
+  line-height:11px;
+  font-weight: bold;
+}
+.shortcutmini a {
+  color: #666 !important;
+  text-decoration:none !important;
+}

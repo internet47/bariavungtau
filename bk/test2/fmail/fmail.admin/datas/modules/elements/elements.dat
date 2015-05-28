@@ -1,0 +1,9 @@
+1363945149	5989	お名前	〒&lt;join id="1240790938" name="郵便番号" /&gt; &lt;join id="1240790903" name="都道府県" /&gt;&lt;join id="1240790962" name="市区町村以下" /&gt;&lt;join id="1244884030" name="マンション名等" /&gt;	50				text	none															1				
+1262055277	5970	メールアドレス		40				text	mail	onchange="mailajust(this.id);"	&lt;/p&gt;&lt;p class="remail"&gt;<br />&lt;span class="info"&gt;※確認のため、再度入力してください&lt;/span&gt;&lt;br /&gt;<br />&lt;input type="text" name="en1262055277_match" value="[[en1262055277_match]]" id="en1262055277_match" class="fmail" size="40" onchange="mailajust(this.id);" /&gt;<br />&lt;/p&gt;													1			&lt;p&gt;<br />&lt;span class="info"&gt;（※半角英数字でご記入ください）&lt;/span&gt;&lt;br /&gt;	
+1244884103	5969	会社名	〒&lt;join id="1240790938" name="郵便番号" /&gt; &lt;join id="1240790903" name="都道府県" /&gt;&lt;join id="1240790962" name="市区町村以下" /&gt;&lt;join id="1244884030" name="マンション名等" /&gt;	50				text	none															1	
+1364297064	5968	住所						text	none	
+1364179689	5967	FAX番号						text	digit												0000-00-0000	
+1364179933	5967	電話番号						text	digit												0000-00-0000							
+1363685455	5966	業種	〒&lt;join id="1240790938" name="郵便番号" /&gt; &lt;join id="1240790903" name="都道府県" /&gt;&lt;join id="1240790962" name="市区町村以下" /&gt;&lt;join id="1244884030" name="マンション名等" /&gt;	50				text	none															1	
+1363685586	5964	役職	〒&lt;join id="1240790938" name="郵便番号" /&gt; &lt;join id="1240790903" name="都道府県" /&gt;&lt;join id="1240790962" name="市区町村以下" /&gt;&lt;join id="1244884030" name="マンション名等" /&gt;	50				text	none															1	
+1363685487	0000	内容						textarea	none															1	

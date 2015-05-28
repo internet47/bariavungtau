@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/**/
+.wraper{padding:10px;}
+/**/
+
+
+/*iFrame*/
+	.ui-layout-pane { /* all 'panes' */ 
+		border: 1px solid #BBB; 
+	} 
+	.ui-layout-pane-center { /* IFRAME pane */ 
+		padding: 0;
+		margin:  0;
+	} 
+	.ui-layout-pane-west { /* west pane */ 
+		padding: 0 ; 
+		background: #EEE;
+		overflow: auto;
+	} 
+
+	.ui-layout-resizer { /* all 'resizer-bars' */ 
+		background: #DDD; 
+		} 
+		.ui-layout-resizer-open:hover { /* mouse-over */
+			background: #9D9; 
+		}
+
+	.ui-layout-toggler { /* all 'toggler-buttons' */ 
+		background: #AAA; 
+		} 
+		.ui-layout-toggler-closed { /* closed toggler-button */ 
+			background: #CCC; 
+			border-bottom: 1px solid #BBB; 
+		} 
+		.ui-layout-toggler .content { /* toggler-text */ 
+			font: 14px bold Verdana, Verdana, Arial, Helvetica, sans-serif;
+		}
+		.ui-layout-toggler:hover { /* mouse-over */ 
+			background: #DCA; 
+			} 
+			.ui-layout-toggler:hover .content { /* mouse-over */ 
+				color: #009; 
+				}
+
+		/* masks are usually transparent - make them visible (must 'override' default) */
+		.ui-layout-mask {
+			background:	#C00 !important;
+			opacity:	.20 !important;
+			filter:		alpha(opacity=20) !important;
+		}
+/*iFrame*/
+
+
+/* Style for Usual tabs */
+.usual {
+    border: 0px solid #222;
+    margin: 0 ;
+}
+.usual #tabhead{
+    margin: 0 ;
+	padding:0;
+}
+
+.usual ul#tabhead li {
+    list-style: none;
+    float: left;
+}
+
+.usual ul#tabhead a {
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none!important;
+    margin: 1px;
+    margin-left: 0;
+    font: 10px Verdana;
+    color: #FFF;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #292929 0%, #575757 100%);
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #292929 0%, #575757 100%);
+/* Opera */ 
+background-image: -o-linear-gradient(top, #292929 0%, #575757 100%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #292929), color-stop(1, #575757));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #292929 0%, #575757 100%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #292929 0%, #575757 100%);
+}
+
+.usual ul#tabhead a:hover {
+    color: #FFF;
+    background: #111;
+}
+
+.usual ul#tabhead a.selected {
+    margin-bottom: 0;
+    color: #000;
+    border-bottom: 1px solid snow;
+    cursor: default;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #B8B8B8 0%, #FFFFFF 100%);
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #B8B8B8 0%, #FFFFFF 100%);
+/* Opera */ 
+background-image: -o-linear-gradient(top, #B8B8B8 0%, #FFFFFF 100%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B8B8B8), color-stop(1, #FFFFFF));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #B8B8B8 0%, #FFFFFF 100%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #B8B8B8 0%, #FFFFFF 100%);
+}
+
+.usual div.divtab {
+    padding: 10px 10px 8px 10px;
+    *padding-top: 3px;
+    *margin-top: -15px;
+    clear: left;
+    background: snow;
+}
+
+.usual div.divtab a {
+}
+
+.usual ul.lit li a {
+	text-decoration:none;
+	padding:0 5px;
+	display:block;
+	color:#333;
+}
+.usual ul.lit li:hover, .usual ul.lit li:hover a {
+	text-decoration:none;
+	background:#6C7784;
+	color:#fff;
+}

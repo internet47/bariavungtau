@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+div#stat {
+	display: none;
+	border: solid 1px #CC0000;
+	margin: 5px;
+	padding: 10px;
+	background-color: #FFCCCC;
+	font-size: 12px;
+	color: #FF0000;
+}
+
+table.sheet {
+	width: 98%;
+	margin: 10px 0px 0px 0px;
+}
+table.sheet tr th {
+	width: 130px;
+	height: auto;
+	padding: 10px 5px 15px 5px;
+	border-top: solid 1px #CCCCCC;
+	text-align: right;
+	font-size: 12px;
+	color: #000099;
+}
+table.sheet tr td {
+	padding: 10px 5px 15px 5px;
+	border-top: solid 1px #CCCCCC;
+	font-size: 12px;
+}
+
+table.sheet tr td span {
+	display: block;
+	padding: 3px 0px 0px 0px;
+	font-size: 12px;
+	color: #666666;
+}
+input#from {
+	width: 250px;
+	height: 16px!important;
+	height/**/: 26px;
+	padding: 5px;
+	ime-mode: disabled;
+}
+input#sender {
+	width: 200px;
+	height: 16px!important;
+	height/**/: 26px;
+	padding: 5px;
+	ime-mode: active;
+}
+input#subject {
+	width: 300px;
+	height: 16px!important;
+	height/**/: 26px;
+	padding: 5px;
+	ime-mode: active;
+}
+textarea#body {
+	width: 98%;
+	height: 200px;
+	padding: 5px;
+	ime-mode: active;
+}
+
+
+/*-------------------------------------------*/
+/*    個別指定                               */
+/*-------------------------------------------*/
+table.sheet tr td span.caution {
+	display:inline;
+	color:red;
+}
+
+table.sheet tr td span.gold_plan {
+	display:inline;
+	font-weight:bold;
+	color:goldenrod;
+}
+
+table.sheet tr td span.platinum_plan {
+	display:inline;
+	font-weight:bold;
+	color:cadetblue;
+}
+
+table.table_style_none, table.table_style_none td {
+	padding:0 !important;
+	border: none 0 #CCCCCC !important;
+}
+table.table_style_none.input_width {	width: 98%;}
+table.table_style_none td.item {	width: 35px;}
+
+table.sheet tr td input.text_long {	width: 98%;}
+table.sheet table.table_style_none td input.text_long {	width: 80%;}
+
+option.caution {	color:red;}
+
+/*初期設定のままエラー*/
+table.sheet tr td .error_img {	display: inline;}
+table.sheet tr .error_bg {	background: #ffeeee;}
+table.sheet tr .error_block {	display: block;	color:red;}
+
+
+/* チェックシート用 */
+form {
+	float: left;
+	width: 350px;
+}
+
+form fieldset {
+	margin: 20px;
+	border: 0;
+}
+
+p#result {
+	display: none;
+	font-size: 11px;
+}
+p#result textarea {
+	padding: 5px;
+	width: 320px;
+	height: 200px;
+}
+
+table#plan_list {
+	float: left;
+	margin: 30px;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+table#plan_list td {
+	padding: 5px;
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+table#plan_list td.title {	text-align: left;}
+table#plan_list tr.kubun td {	border-bottom: 3px solid #cccccc;}
+
+.check_ng {	color: #ff0000;}
+.check_set {	color: #0000ff;}
+.check_on {	color: #000000;}
+.check_off {	color: #aaaaaa;}
+table#plan_list td.info {
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	text-align: right;
+}
